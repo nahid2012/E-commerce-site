@@ -357,10 +357,26 @@ span {
 
 footer {
 	background-color: black !important;
-	padding: 20px;
+	padding: 30px;
 }
 
 footer p {
 	text-align: center;
 	color: #f2f2f2;
 } 
+
+
+/* Responsivse */
+@media (max-width: 1000px){
+	body{width: 850px;}
+	.container{height: 110vh;}
+	.section1{left: 50%;}
+	.section1 img {height: 500px}
+	.section1button{right: 50%; left: 50%;margin-top: 350px;}
+	footer{width: 100%; padding: 50px;}
+	.productSection{width:100%;}
+	.about{width: 100%;}
+	.aboutBox img{height: 250px;}
+	.notification{width: 100%;}
+	footer{padding: 50px;}
+}
